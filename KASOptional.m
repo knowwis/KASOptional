@@ -23,7 +23,7 @@ if (!(CONDITION)) \
 { \
     if (areExceptionsOnReleaseEnabled) \
     { \
-        @throw [NSException exceptionWithName:@"Error in optional" reason:MESSAGE userInfo:nil] \
+        @throw [NSException exceptionWithName:@"Error in optional" reason:MESSAGE userInfo:nil]; \
     } \
     else \
     { \

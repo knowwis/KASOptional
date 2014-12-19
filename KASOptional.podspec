@@ -84,7 +84,7 @@ It allows to specify there is value or not without more clearly. You should not 
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = '*.{h,m}'
+  s.source_files = "KASOptional", "KASOptional/*.{h,m}"
   s.public_header_files = 'KASOptional.h'
 
   # s.public_header_files = "Classes/**/*.h"
