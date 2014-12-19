@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "It allows to specify there is value or not without more clearly"
 
   s.description  = <<-DESC
-It allows to store Objective-C object or C object
+It allows to specify there is value or not without more clearly. You should not assume nil(NULL) is not a value. Now you can ask it about stored value
                    DESC
 
   s.homepage     = "https://github.com/knowwis/KASOptional"
@@ -34,7 +34,7 @@ It allows to store Objective-C object or C object
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -84,7 +84,8 @@ It allows to store Objective-C object or C object
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KASOptional"
+  s.source_files = '*.{h,m}'
+  s.public_header_files = 'KASOptional.h'
 
   # s.public_header_files = "Classes/**/*.h"
 

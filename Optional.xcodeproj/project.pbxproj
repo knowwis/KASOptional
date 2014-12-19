@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CF2FD6911A43341500AC1ACE /* OptionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FD6901A43341500AC1ACE /* OptionalTests.m */; };
-		CF2FD69A1A43527C00AC1ACE /* KASOptional.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FD6991A43527C00AC1ACE /* KASOptional.m */; };
+		CF5A31A61A43D37100D7CDCC /* KASOptional.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A31A51A43D37100D7CDCC /* KASOptional.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF2FD68B1A43341500AC1ACE /* OptionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2FD68F1A43341500AC1ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2FD6901A43341500AC1ACE /* OptionalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalTests.m; sourceTree = "<group>"; };
-		CF2FD6981A43527C00AC1ACE /* KASOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KASOptional.h; path = KASOptional/KASOptional.h; sourceTree = "<group>"; };
-		CF2FD6991A43527C00AC1ACE /* KASOptional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KASOptional.m; path = KASOptional/KASOptional.m; sourceTree = "<group>"; };
+		CF5A31A41A43D37100D7CDCC /* KASOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASOptional.h; sourceTree = "<group>"; };
+		CF5A31A51A43D37100D7CDCC /* KASOptional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASOptional.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +33,8 @@
 		CF2FD6801A4333F500AC1ACE = {
 			isa = PBXGroup;
 			children = (
-				CF2FD6981A43527C00AC1ACE /* KASOptional.h */,
-				CF2FD6991A43527C00AC1ACE /* KASOptional.m */,
+				CF5A31A41A43D37100D7CDCC /* KASOptional.h */,
+				CF5A31A51A43D37100D7CDCC /* KASOptional.m */,
 				CF2FD68D1A43341500AC1ACE /* OptionalTests */,
 				CF2FD68C1A43341500AC1ACE /* Products */,
 			);
@@ -131,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2FD6911A43341500AC1ACE /* OptionalTests.m in Sources */,
-				CF2FD69A1A43527C00AC1ACE /* KASOptional.m in Sources */,
+				CF5A31A61A43D37100D7CDCC /* KASOptional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +257,7 @@
 				CF2FD6941A43341500AC1ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
