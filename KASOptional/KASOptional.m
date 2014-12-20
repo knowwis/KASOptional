@@ -58,8 +58,6 @@ if (!(CONDITION)) \
 
 - (instancetype)initWithPointerToCObject:(const void *const)pointer
 {
-    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(pointer != NULL, @"Pointer is NULL", nil)
-
     self = [self init];
     if (self == nil)
     {
@@ -74,8 +72,6 @@ if (!(CONDITION)) \
 
 - (instancetype)initWithValue:(const id)value
 {
-    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(value != nil, @"Value is nil", nil)
-
     self = [self init];
     if (self == nil)
     {
@@ -106,13 +102,13 @@ if (!(CONDITION)) \
 
 - (const void *)pointer
 {
-    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(_pointer != NULL, @"There is no pointer", nil);
+    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(_hasPointer, @"There is no pointer", nil);
     return _pointer;
 }
 
 - (id)value
 {
-    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(_value != nil, @"There is no value", nil);
+    IF_NO_CONDITION_THROW_EXCEPTION_OR_RETURN_VALUE(_hasValue, @"There is no value", nil);
     return _value;
 }
 
